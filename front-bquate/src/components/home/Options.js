@@ -13,7 +13,7 @@ export const Options = () => (
             multiples of 5 print "IT". For numbers which are multiples of both 3
             and 5, print "Multipli".
           </p>
-          <Link to="/one">Solution</Link>
+          <Link to="/one" className="uk-button uk-button-default"  >Solution</Link>
         </div>
       </div>
       <div>
@@ -29,14 +29,14 @@ export const Options = () => (
             <li>Little description</li>
             <li>On click name show element with mayor description</li>
           </ul>
-          <Link to="/">Solution</Link>
+          <Link to="/two" className="uk-button uk-button-default" >Solution</Link>
         </div>
       </div>
       <div>
         <div className="uk-card uk-card-secondary uk-card-body">
           <h3 className="uk-card-title">Challenge Three</h3>
           <p>Using the file bd_musica.sql that we have provided you, using Nodejs and MySql, you must create the database needed for the query exercises:</p>
-          <Link to="/">Solution</Link>
+          <Link to="/three" className="uk-button uk-button-default" >Solution</Link>
         </div>
       </div>
     </div>

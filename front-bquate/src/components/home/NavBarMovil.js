@@ -10,7 +10,7 @@ export const NavBarMovil = () => (
                 </a>
             </div>
             <div className="uk-navbar-right">
-                <a className="uk-navbar-item uk-logo" href=""><img src="BquateLogo.png" width="150px" height="auto" alt="Bquate"/></a>
+                <a className="uk-navbar-item uk-logo" href="/"><img src="BquateLogo.png" width="150px" height="auto" alt="Bquate"/></a>
             </div>
         </nav>
         <div id="tm-mobile" className="uk-modal-full uk-modal" data-uk-modal="">
@@ -28,9 +28,9 @@ export const NavBarMovil = () => (
                             <div className="uk-panel" id="module-0">
                                 <div className="uk-navbar-center">                                    
                                     <ul className="uk-nav uk-nav-primary uk-nav-center">
-                                        <li ><NavLink to="/"><b>Challenge One  </b></NavLink></li>
-                                        <li ><NavLink to="/"><b>Challenge Two  </b></NavLink></li>
-                                        <li ><NavLink to="/"><b>Challenge Three</b></NavLink></li>
+                                        <li ><NavLink to="/one"><b>Challenge One  </b></NavLink></li>
+                                        <li ><NavLink to="/two"><b>Challenge Two  </b></NavLink></li>
+                                        <li ><NavLink to="/three"><b>Challenge Three</b></NavLink></li>
                                     </ul>
                                     
                                 </div>
