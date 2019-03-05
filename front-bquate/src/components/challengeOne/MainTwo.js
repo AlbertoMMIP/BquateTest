@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { NavBar } from "../home/NavBar";
+import {ItemMusic} from "../common/ItemMusic";
 
 class MainTwo extends Component{
     constructor(){
@@ -19,7 +20,16 @@ class MainTwo extends Component{
                 </div>
                 <div className="uk-section">
                     <div className="uk-container">
-                        <p></p>
+                        <div className="uk-child-width-1-2@m uk-margin" data-uk-grid>
+                        <ItemMusic />
+                        <ItemMusic />
+                        <ItemMusic />
+                        <ItemMusic />
+                        <ItemMusic />
+                        <ItemMusic />
+                        <ItemMusic />
+                        <ItemMusic />
+                        </div>
                     </div>
                 </div>
             </div>

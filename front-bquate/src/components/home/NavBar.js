@@ -14,9 +14,8 @@ export const NavBar = () => (
             <div className="uk-navbar-center-left">
               <div>
                 <ul className="uk-navbar-nav">
-                  <li className="uk-active">
-                    <NavLink to="/one">Challenge One</NavLink>
-                  </li>
+                  <li className="uk-active"><NavLink to="/one">Challenge One</NavLink></li>
+                  <li> <NavLink to="/two">Challenge Two</NavLink> </li>
                 </ul>
               </div>
             </div>
@@ -24,8 +23,8 @@ export const NavBar = () => (
             <div className="uk-navbar-center-right">
               <div>
                 <ul className="uk-navbar-nav">
-                  <li> <NavLink to="/two">Challenge Two</NavLink> </li>
                   <li> <NavLink to="/three">Challenge Three</NavLink> </li>
+                  <li> <NavLink to="/about">About</NavLink> </li>
                 </ul>
               </div>
             </div>

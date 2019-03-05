@@ -4,6 +4,7 @@ import { Home } from './components/home/Home';
 import MainOne from './components/challengeOne/MainOne';
 import MainTwo from './components/challengeOne/MainTwo';
 import MainThree from './components/challengeOne/MainThree';
+import { About } from './components/common/About';
 
 export const Router = () => (
     <Switch>
@@ -11,5 +12,6 @@ export const Router = () => (
         <Route exact path='/one' component={MainOne} />
         <Route exact path='/two' component={MainTwo} />
         <Route exact path='/three' component={MainThree} />
+        <Route exact path='/about' component={About}/>
     </Switch>
 );

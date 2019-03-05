@@ -31,8 +31,8 @@ export const NavBarMovil = () => (
                                         <li ><NavLink to="/one"><b>Challenge One  </b></NavLink></li>
                                         <li ><NavLink to="/two"><b>Challenge Two  </b></NavLink></li>
                                         <li ><NavLink to="/three"><b>Challenge Three</b></NavLink></li>
-                                    </ul>
-                                    
+                                        <li ><NavLink to="/about"><b>About</b></NavLink></li>
+                                    </ul>                                    
                                 </div>
                             </div>
                         </div>
