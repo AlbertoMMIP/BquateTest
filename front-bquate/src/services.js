@@ -1,5 +1,5 @@
 import axios from 'axios';
-var base_url = "http://musicbrainz.org/ws/2"
+var base_url = "https://musicbrainz.org/ws/2"
 
 export const searchArtists = (artist) => {
     return axios.get(`${base_url}/artist/?query=artist:${artist}`);
