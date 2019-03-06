@@ -28,7 +28,7 @@ export const About = () => (
                                                 <li><a href="https://nodejs.org/es/">Node JS</a></li>
                                                 <li><a href="https://reactjs.org/">React JS</a></li>
                                                 <li><a href="https://getuikit.com/">UIKit</a></li>
-                                                <li><a href="https://github.com/maxkueng/node-musicbrainz">API musicbrainz</a></li>
+                                                <li><a href="https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search">API musicbrainz</a></li>
                                                 <li><a href="https://id.heroku.com/login">Heroku</a></li>
                                             </ul> 
                                         </li>
